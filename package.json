@@ -1,9 +1,28 @@
 {
   "name": "openweather-demo",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuta519/openweather-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuta519/openweather-demo/issues"
+  },
+  "homepage": "https://github.com/yuta519/openweather-demo#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "typescript": "^5.0.4"
+  },
   "dependencies": {
-    "axios": "^1.4.0"
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3"
   }
 }
